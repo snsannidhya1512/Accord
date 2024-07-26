@@ -1,4 +1,4 @@
-// import CategoryFilter from '@/components/shared/CategoryFilter';
+import CategoryFilter from "@/components/shared/CategoryFilter";
 import { getAllEvents } from "@/lib/actions/event.actions";
 
 import Collection from "@/components/shared/Collections";
@@ -57,7 +57,7 @@ export default async function Home({ searchParams }: SearchParamProps) {
 
         <div className="flex w-full flex-col gap-5 md:flex-row">
           <Search />
-          {/* <CategoryFilter /> */}
+          <CategoryFilter />
         </div>
 
         <Collection
